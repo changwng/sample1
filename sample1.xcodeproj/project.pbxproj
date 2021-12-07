@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		5B6BBF73275DD5390059951D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF72275DD5390059951D /* AppDelegate.swift */; };
 		5B6BBF75275DD5390059951D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF74275DD5390059951D /* SceneDelegate.swift */; };
-		5B6BBF77275DD5390059951D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF76275DD5390059951D /* ViewController.swift */; };
 		5B6BBF7A275DD5390059951D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BBF78275DD5390059951D /* Main.storyboard */; };
 		5B6BBF7C275DD53C0059951D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BBF7B275DD53C0059951D /* Assets.xcassets */; };
 		5B6BBF7F275DD53C0059951D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BBF7D275DD53C0059951D /* LaunchScreen.storyboard */; };
 		5B6BBF8A275DD53C0059951D /* sample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF89275DD53C0059951D /* sample1Tests.swift */; };
 		5B6BBF94275DD53C0059951D /* sample1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF93275DD53C0059951D /* sample1UITests.swift */; };
 		5B6BBF96275DD53C0059951D /* sample1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBF95275DD53C0059951D /* sample1UITestsLaunchTests.swift */; };
+		5B6BBFA3275F526B0059951D /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBFA2275F526B0059951D /* MemoListVC.swift */; };
+		5B6BBFA5275F53810059951D /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBFA4275F53810059951D /* MemoFormVC.swift */; };
+		5B6BBFA7275F53960059951D /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBFA6275F53960059951D /* MemoReadVC.swift */; };
+		5B6BBFA9275F54730059951D /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBFA8275F54730059951D /* MemoCell.swift */; };
+		5B6BBFAB275F555C0059951D /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBFAA275F555C0059951D /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		5B6BBF6F275DD5390059951D /* sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6BBF72275DD5390059951D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6BBF74275DD5390059951D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B6BBF76275DD5390059951D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B6BBF79275DD5390059951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B6BBF7B275DD53C0059951D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6BBF7E275DD53C0059951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		5B6BBF8F275DD53C0059951D /* sample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6BBF93275DD53C0059951D /* sample1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample1UITests.swift; sourceTree = "<group>"; };
 		5B6BBF95275DD53C0059951D /* sample1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B6BBFA2275F526B0059951D /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		5B6BBFA4275F53810059951D /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		5B6BBFA6275F53960059951D /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		5B6BBFA8275F54730059951D /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		5B6BBFAA275F555C0059951D /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		5B6BBF71275DD5390059951D /* sample1 */ = {
 			isa = PBXGroup;
 			children = (
+				5B6BBFA8275F54730059951D /* MemoCell.swift */,
 				5B6BBF72275DD5390059951D /* AppDelegate.swift */,
 				5B6BBF74275DD5390059951D /* SceneDelegate.swift */,
-				5B6BBF76275DD5390059951D /* ViewController.swift */,
 				5B6BBF78275DD5390059951D /* Main.storyboard */,
 				5B6BBF7B275DD53C0059951D /* Assets.xcassets */,
 				5B6BBF7D275DD53C0059951D /* LaunchScreen.storyboard */,
 				5B6BBF80275DD53C0059951D /* Info.plist */,
+				5B6BBFA2275F526B0059951D /* MemoListVC.swift */,
+				5B6BBFA4275F53810059951D /* MemoFormVC.swift */,
+				5B6BBFA6275F53960059951D /* MemoReadVC.swift */,
+				5B6BBFAA275F555C0059951D /* MemoData.swift */,
 			);
 			path = sample1;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6BBF77275DD5390059951D /* ViewController.swift in Sources */,
+				5B6BBFA3275F526B0059951D /* MemoListVC.swift in Sources */,
+				5B6BBFA7275F53960059951D /* MemoReadVC.swift in Sources */,
 				5B6BBF73275DD5390059951D /* AppDelegate.swift in Sources */,
+				5B6BBFAB275F555C0059951D /* MemoData.swift in Sources */,
+				5B6BBFA5275F53810059951D /* MemoFormVC.swift in Sources */,
 				5B6BBF75275DD5390059951D /* SceneDelegate.swift in Sources */,
+				5B6BBFA9275F54730059951D /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +461,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +490,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
